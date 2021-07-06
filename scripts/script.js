@@ -16,7 +16,7 @@ headerCityButton.addEventListener('click', () => {
 
 const disableScroll = () => {
     const widthScroll = window.innerWidth - document.body.offsetWidth;
-    // создаем новое свойство у объекта, чтобы сохзранить текущее положение страницы
+    // создаем новое свойство у объекта, чтобы сохранить текущее положение страницы
 
     document.body.dbScrollY = window.scrollY;
 
